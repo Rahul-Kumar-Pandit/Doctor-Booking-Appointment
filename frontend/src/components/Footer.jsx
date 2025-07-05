@@ -30,7 +30,7 @@ const Footer = () => {
         {/* ---------- Right Section --------- */}
         <div>
             <p className="text-xl font-medium mb-5">GET IN TOUCH</p>
-            <ul className="flex flex-col gap-2 text-gray-600">
+            <ul className="flex flex-col gap-2 text-gray-600 cursor-pointer">
                <li>+91-9065546589</li>
                <li>rahulpandit7405@gmail.com</li> 
             </ul>
@@ -40,7 +40,7 @@ const Footer = () => {
         {/* --------- Copyright Text ------ */}
         <div>
             <hr />
-            <p className="py-5 text-sm text-center">Copyright 2025@ Prescripto - All Right Reserved.</p>
+            <p className="py-5 text-sm text-center"><span className="cursor-pointer">rahulpandit7405@gmail.com</span> 2025@ Prescripto - All Right Reserved.</p>
         </div>
       </div>
     </div>
